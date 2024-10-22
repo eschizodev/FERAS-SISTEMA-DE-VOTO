@@ -1,0 +1,7 @@
+.navbar {
+    padding: 20px;
+}
+.navbar-nav {
+    flex-grow: 1;
+    justify-content: center;
+}
