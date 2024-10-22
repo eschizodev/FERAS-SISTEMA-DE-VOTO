@@ -7,6 +7,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/categiories.css">
     <style>
+        
+        .carousel-inner img {
+            height: 307px; 
+            object-fit: scale-down;
+        }
+
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 <body>
@@ -19,7 +34,7 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://via.placeholder.com/1200x400?text=Slide+1" class="d-block w-100" alt="Slide 1">
+                <img src="/assets/img/5d3b21ab5b6c7.jpg" class="d-block w-100" alt="Slide 1">
                 <div class="carousel-caption d-none d-md-block">
                     <h5></h5>
                     <p></p>
@@ -52,7 +67,6 @@
 
     <section id="services" class="py-5">
         <div class="container"> 
-            <h2 class="text-center mb-5">Nossos Serviços</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card">
@@ -87,44 +101,40 @@
             </div>
         </div>
     </section>
-    <section id="services" class="py-5">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-4 mb-4">
-                  <div class="card">
-                      <img src="https://via.placeholder.com/300x200?text=Serviço+1" class="card-img-top" alt="Serviço 1">
-                      <div class="card-body">
-                          <h5 class="card-title">Serviço 1</h5>
-                          <p class="card-text"></p>
-                          <a href="#" class="btn btn-dark">Saiba Mais</a>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4 mb-4">
-                  <div class="card">
-                      <img src="https://via.placeholder.com/300x200?text=Serviço+2" class="card-img-top" alt="Serviço 2">
-                      <div class="card-body">
-                          <h5 class="card-title">Serviço 2</h5>
-                          <p class="card-text"></p>
-                          <a href="#" class="btn btn-dark">Saiba Mais</a>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4 mb-4">
-                  <div class="card">
-                      <img src="https://via.placeholder.com/300x200?text=Serviço+3" class="card-img-top" alt="Serviço 3">
-                      <div class="card-body">
-                          <h5 class="card-title">Serviço 3</h5>
-                          <p class="card-text"></p>
-                          <a href="#" class="btn btn-dark">Saiba Mais</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-
-
+    <div class="container"> 
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Serviço+1" class="card-img-top" alt="Serviço 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Serviço 1</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-dark">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Serviço+2" class="card-img-top" alt="Serviço 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Serviço 2</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-dark">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Serviço+3" class="card-img-top" alt="Serviço 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Serviço 3</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-dark">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
     </footer>

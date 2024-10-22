@@ -1,23 +1,14 @@
-.carousel-item img {
-    height: 400px;
+.carousel-inner img {
+    height: 300px; 
     object-fit: cover;
-}
-
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
-}
-
-.card:hover {
-    transition: transoform;
 }
 
 .card {
-    box-shadow: 04px 3px 8px rgba(0, 0, 0, 0.151);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
+    transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    transform: translateY(-5px);
 }
