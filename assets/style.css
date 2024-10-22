@@ -1,7 +1,39 @@
 .navbar {
-    padding: 20px;
+    padding: 20px; /* Ajuste a altura da navbar */
+    background-color: #1A2C46; /* Cor de fundo */
 }
+
+.navbar-brand img {
+    max-height: 40px; /* Tamanho da logo */
+}
+
+.nav-link {
+    color: white; /* Cor do texto dos links */
+    margin: 0 15px; /* Espaçamento entre os links */
+    font-size: 1.2em; /* Tamanho da fonte */
+}
+
+.nav-link:hover {
+    color: #ffcc00; /* Cor ao passar o mouse */
+}
+
 .navbar-nav {
-    flex-grow: 1;
-    justify-content: center;
+    justify-content: center; /* Centraliza os itens da navbar */
+    flex-grow: 1; /* Permite que a navbar cresça */
+}
+
+/* Remove a borda da dropdown */
+.dropdown-menu {
+    border: none;
+    background-color: #0056b3; /* Cor de fundo da dropdown */
+}
+
+/* Estilo dos itens do dropdown */
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #ffcc00; /* Cor ao passar o mouse nos itens da dropdown */
+    color: #000; /* Cor do texto ao passar o mouse */
 }
