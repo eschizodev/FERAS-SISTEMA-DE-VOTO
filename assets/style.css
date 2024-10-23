@@ -1,10 +1,10 @@
 .navbar {
-    padding: 30px; /* Ajuste a altura da navbar */
+    padding: 15px; /* Ajuste a altura da navbar */
     background-color: #1A2C46; /* Cor de fundo */
 }
 
 .navbar-brand img {
-    max-height: 40px; /* Tamanho da logo */
+    max-height: 40px; 
 }
 
 .nav-link {
