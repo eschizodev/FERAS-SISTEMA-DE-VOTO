@@ -13,6 +13,11 @@
     font-size: 1.2em; /* Tamanho da fonte */
 }
 
+.navbar-toggler {
+    background-color: #ddd9ce;
+
+}
+
 .nav-link:hover {
     color: #ffcc00; /* Cor ao passar o mouse */
 }
