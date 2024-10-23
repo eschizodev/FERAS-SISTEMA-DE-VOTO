@@ -42,3 +42,7 @@
     background-color: #ffcc00; /* Cor ao passar o mouse nos itens da dropdown */
     color: #000; /* Cor do texto ao passar o mouse */
 }
+.fixed-card {
+    min-width: 250px; /* Largura mínima para os cards */
+    max-width: 500x; /* Largura máxima opcional */
+}
