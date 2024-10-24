@@ -60,3 +60,6 @@ footer {
     max-height: 300px; 
     object-fit: fill; 
 }
+.justificado {
+    text-align: justify;
+}
