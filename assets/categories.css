@@ -5,16 +5,18 @@ body {
 .carousel-inner img {
     padding: 60px;
     height: 350px;
-    object-fit: fill;
+    object-fit: scale-down;
 }
 
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 13px;
+    transition: transform 0.3s ease;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
 }
 
 a {
@@ -22,44 +24,17 @@ a {
 }
 
 footer {
-    background-color: #407ab8;
-    height: 50px;
-}
-#logo-container {
-    display: flex;
-    justify-content: right;
-    align-items: right;   
-    height: 150px;          
-    width: 150px;           
-    background-color: #f1f1f1; 
-    border-radius: 50%;
-    margin-left: 36cm;      
+    background-color: #343a40;
 }
 
-#logo-container img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain; 
-} 
-
-.custom-card {
-    max-width: 350px; 
-    height: 370px; 
-    margin-bottom: 2.5cm; 
-    margin-left: 1.5cm;
-    padding: 12px;
-    
+.card {
+    min-width: 250px; 
+    max-width: 300px; 
+    margin: auto; 
 }
-
-.custom-row {
-    row-gap: 15px;
-    column-gap: 0; 
+#services {
+    margin-top: 100px; 
 }
-
-.custom-card img {
-    max-height: 300px; 
-    object-fit: fill; 
-}
-.justificado {
-    text-align: justify;
+.row {
+    margin-bottom: 20px; 
 }
