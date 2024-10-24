@@ -1,3 +1,7 @@
+body {
+    background-color: #f8f9fa;
+}
+
 .navbar {
     padding: 15px; /* Ajuste a altura da navbar */
     background-color: #1A2C46; /* Cor de fundo */
@@ -42,7 +46,10 @@
     background-color: #ffcc00; /* Cor ao passar o mouse nos itens da dropdown */
     color: #000; /* Cor do texto ao passar o mouse */
 }
-.fixed-card {
-    min-width: 250px; /* Largura mínima para os cards */
-    max-width: 500x; /* Largura máxima opcional */
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+    transition: transform 0.3s ease;
 }
+
